@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador Allura</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoImg "src="img/Logo.png" alt="Logo">
+            <h1 class="title">Encriptador de Mensajes</h1>
+        </div>
+        <div class="left">
+            <input class="text-input" id="inputTexto" onkeyup="validar()" onblur="validar()" placeholder="Ingrese el texto aqui" type="text">
+        </div>
+        <div class="right">
+            <img src="img/Muñeco.png" alt="Muñeco" id="imgDer">
+            <h3 id="texto">Ningun mensaje fue encontrado</h3>
+            <textarea id="texto2" name="" id="" cols="30" rows="10">Ingrese el texto que desees encriptar o desencriptar</textarea>
+            <button id="copiar" type="button" name="button" onclick="copy()">Copiar</button>
+        </div>
+        <div class="left-button">
+            <p id="message">Solo letras minusculas y sin acentos</p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/script.js"></script>
