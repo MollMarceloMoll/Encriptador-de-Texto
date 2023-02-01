@@ -97,3 +97,11 @@ body {
     border-radius: 24px;
     display: none;
 }
+footer {
+    background-color: #dddfe0;
+    padding-bottom: 5px;
+}
+h4 {
+    text-align: center;
+    padding-top: 10px;
+}
